@@ -122,6 +122,8 @@ div.item {
 
     overflow: scroll;
     text-align: center;
+
+    margin-top: -300px;
 }
 
 #hobby_1 {
@@ -267,13 +269,15 @@ div.item {
     text-align: center;
 }
 
-@media screen and (max-width:799px){
+
+@media screen and (min-width:0px) and (max-width:1000px){
     #nar_one {
        margin-top: 100px;
        margin-left: 20px;
 
        width: 500px;
     }
+    
     #nar_two {
        margin-left: 20px;
 
@@ -287,11 +291,4 @@ div.item {
         overflow: scroll;
     }
     
-}
-
-@media screen and (min-width:800px){
-    #nar_one {
-        margin-top: -300px;
-    }
-
 }
