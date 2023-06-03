@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>권순호 과제 홈페이지</title>
+        <meta name="viewport" content="user-scalable=yes,initial-scale=0.5">
+        <link rel="stylesheet" href="suno.css">
+
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#item1').click(function(){
+                    $('#basic').css('display','block')
+                    $('#hobby').css('display','none')
+                    $('#hometown').css('display','none')
+                })
+                $('#item2').click(function(){
+                    $('#basic').css('display','none')
+                    $('#hobby').css('display','block')
+                    $('#hometown').css('display','none')
+                })
+                $('#item3').click(function(){
+                    $('#basic').css('display','none')
+                    $('#hobby').css('display','none')
+                    $('#hometown').css('display','block')
+                })
+            })
+        </script>
+
+    <body>
+        <div id="title" class="all"><h1><ins>Suno</ins></h1></div>
+
+        <div id="container">
+            <div class="item" id="item1"><b>기본 정보</b></div>
+            <div class="item" id="item2"><b>취미 / 꿈</b></div>
+            <div class="item" id="item3"><b>고향 소개</b></div>
+        </div>
+
+        <div id="basic">
+            <br><br><br><br><br>
+          
+            <div id="impo">
+                <h2><ul><li><b>기본 정보</b></li></ul></h2>
+                <img id="mypic" src="awerawefwef.jpg">
+            </div>
+
+            <div id="profile">
+                <ul>
+                    <li><ins>Name : 권순호 / Kwon soon ho</ins></li> 
+                    <br><li>School : Kangwon National University CE 2022 ~ Ing</li>
+                    <br><li>height : 175cm / weight : 70kg</li>
+                    <br><li>MBTI : ENFJ</li>
+                    <br><li>Hometown : Si_Heung</li>
+                    <br><li>Favorite Food : Meat</li>
+                    <br><li>Favorite Sports : Baseball</li>
+                    <br><li>Favorite Game : League Of Legend</li>
+                    <br><li>Family : Father / Mother / Sister</li>
+                </ul>
+            </div>
+
+            <div id="time_table">
+                <div id="time">
+                    &lt;Time_Tabla&gt;
+                </div>
+                <div>
+                    <table id="table" style="box-shadow: 5px 5px 5px black; background-color:  rgb(224, 232, 204);" border="5" >
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>월</th>
+                                    <th>화</th>
+                                    <th>수</th>
+                                    <th>목</th>
+                                    <th>금</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1_th<br>(09:00~10:00)</td>
+                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td style="background-color: rgb(251, 197, 197);"   rowspan="4">자바프로그래밍1</td>
+                                    <td style="background-color: rgb(215, 250, 250);" rowspan="3">컴퓨터개론</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2_th<br>(10:00~11:00)</td>
+                                    <td></td>
+                                    <td style="background-color: rgb(193, 193, 255);" rowspan="2">웹프로그래밍</td>
+                                    <td style="background-color: rgb(253, 185, 244);" rowspan="3">이산수학</td>
+                                </tr>
+                                <tr>
+                                    <td>3_th<br>(11:00~12:00)</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4_th<br>(12:00~13:00)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>5_th<br>(13:00~14:00)</td>
+                                    <td></td>
+                                    <td style="background-color: rgb(149, 248, 152);" rowspan="2">고급파이썬프로그래밍</td>
+                                    <td style="background-color: rgb(149, 248, 152);" rowspan="2">고급파이썬프로그래밍</td>
+                                    <td></td>
+                                    <td style="background-color: rgb(193, 193, 255);" rowspan="2">웹프로그래밍</td>
+                                </tr>
+                                <tr>
+                                    <td>6_th<br>(14:00~15:00)</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>7_th<br>(15:00~16:00)</td>
+                                    <td></td>
+                                    <td style="background-color: rgb(78, 240, 207);" rowspan="2">자료구조</td>
+                                    <td style="background-color: rgb(78, 240, 207);" rowspan="2">자료구조</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>8_th<br>(16:00~17:00)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="nar_one">
+                Welcome! Hello, this is Kwon Soonho's introduction website. I was born in 1999 
+                and I am 25 years old in Korean age. Let me introduce myself briefly. I was safely
+                 discharged from the military in 2021 and I took the test as soon as I was 
+                 discharged from the military and entered Kangwon National University in 2022. 
+                 I transferred from chemical engineering to computer engineering last year because
+                 I was interested in studying coding. I think programming is good. So I'm living 
+                 hard in many ways. That's it for my brief introduction and there's a navigation 
+                 bar at the top so you can learn more about me by clicking on it! Thank you for 
+                 reading it !!
+            </div>
+
+        </div>
+        
+        <div id="hobby">
+            <ul id="hobby_1">
+                <li>
+                    <b style="background-color: antiquewhite;">Hobby</b>
+                        <ol>
+                            <br><li><ins>Listening to music</ins></li><br>
+                            <div>
+                                <img id="bigbang" src="98299486.2.jpg"><br><b id="bigbang_1">&lt;My favorite Atist : Bigbang&gt;</b>
+                            </div>
+                            <div>
+                                <br><b><a id="melon" href="https://www.melon.com/search/song/index.htm?q=%EB%B9%85%EB%B1%85+%EB%B0%94%EB%B3%B4&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=">Go listen to the song</a></li></b>
+                            </div>
+                            <li><ins>Watching a movie</ins></li><br><br>
+                            <div>
+                                <img id="getout" src="w2jxCYzXj15wxbGJOT6emg6gLOn.jpg"><br><b id="getout_1">&lt;My favorite : Get out&gt;</b>
+                            </div>
+                            <li><ins>Clothing shopping</ins></li>
+                            <div>
+                                <img id="girim" src="스크린샷 2023-04-07 164038.png">
+                            </div>
+                            <div>
+                                <a id="girim_1" href="https://smartstore.naver.com/girimm?NaPm=ct%3Dlg68roly%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3Db26da1ff6829b24dbb353cfc71881e40be2cf6c2">Access shopping mall</a>
+                            </div>
+                        </ol>
+                </li>
+            </ul>
+
+            <ul id="dream">
+                <li ><b style="background-color: antiquewhite;">Dream</b>
+                    <ul>
+                        <li><ins>&nbsp;&nbsp; Backend developer</ins></li>
+                        <div><img id="backend" src="스크린샷 2023-04-07 164836.png"></div>
+                        <ins>--&gt;Favorite programming language : C++</ins>
+                        <div><img id="C" src="C_C_featuredimage.png"></div>
+                        <li>Video_Editor</li>
+                        <div><img id="Editor" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F990FF94C5FE2764C09"></div>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div id="nar_two">
+                I'll introduce my hobby and dream. First of all, my first hobby is listening to music.
+                Listening to music makes me feel better, so I'm using it as my hobby. My favorite singer
+                is BIGBANG and I even put a link to the song. Next, my hobby is watching  movies. When I watch
+                a movie, I can feel things that I haven't experienced before. So i love movie. Lastly, my hobby
+                is internet shopping. It's because wearing new clothes makes me feel refreshed. I have attached
+                a link to my favorite shopping mall. Next, my dream is to become a back-end developer. It's my 
+                dream to have a strange pleasure in coding. My favorite programming language is C++ language.
+                My other dream is to be a video editor. I was happy to provide fun videos to people,
+                so I thought of it as a dream.
+            </div>
+        </div>
+
+        <div id="hometown">
+
+            <ul id="hometown_1">
+                <li><b style="background-color: antiquewhite;">Hometown</b>
+                    <ul>
+                        <br><li><ins>Si_Heung</ins></li>
+                        <div><img id="baegot" src="다운로드.jpeg"><b id="bagot_1"> &lt;-- Bae_Got</b></div>
+                        <br><li><ins>Recommends</ins>
+                            <ol>
+                                <br><li><b style="background-color: rgb(251, 194, 174);">☆ 카츠오모이</b></li>
+                                <div><img id="pork" src="스크린샷 2023-04-07 220653.png"></div>
+                                <b id="pork_1">&lt;카츠오모이&gt;</b>
+                                <br><li><b style="background-color: rgb(251, 194, 174);">★ 카페 연화</b></li>
+                                <div><img id="cafe" src="카페연화.jpeg"><b id="cafe_1"><br>&lt;카페 연화&gt;</b></div>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div id="nar_three">
+                I'll tell you about my hometown! My hometown is Siheung-si,
+                Gyeonggi-do. There are many good things in Siheung City, 
+                but Baegot New Town is very famous among them.The first 
+                picture is Baegot with a beautiful night view. Then I'll 
+                recommend two good restaurants now in Baegot! The first 
+                is a Japanese pork cutlet restaurant called Katsuomoi, 
+                which you can see in the picture. I love pork cutlet so 
+                much that I've been to many famous pork cutlet restaurants,
+                and I'm confident that this place is one of the most delicious!
+                The next place to explain is called Cafe Yeonhwa. It's a 
+                cafe with beauty, style, and convenience. It was the best 
+                cafe I've ever been to! Especially, I think the best advantage 
+                is that the interior is wide and the seats are convenient.
+            </div>
+
+        </div>
+    </body>
+</html>
